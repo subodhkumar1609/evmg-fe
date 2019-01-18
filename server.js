@@ -51,6 +51,8 @@ app.all("/be/*", function(req, res) {
     if(req.method == 'POST' || req.method == 'PUT')
     	reqForward.write(req.body)
     
+    console.error(resForward)
+    console.error(resForward.body)	
     reqForward.end()
 });
 
