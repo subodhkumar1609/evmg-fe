@@ -1,23 +1,23 @@
 {
-	   gnameh: gevents-feh,
-	   gversionh: g1h,
-	   gdescriptionh: gEvent FEh,
-	   gdependenciesh: {
-	        gexpressh: g*h
+	   "name": "events-fe",
+	   "version": "1",
+	   "description": "Event FE",
+	   "dependencies": {
+	        "express": "*"
 	    },
-	   gengineh: gnode >=0.6.xh,
-	   gscriptsh: {
-	         gstarth: gnode server.jsh
+	   "engine": "node >=0.6.x",
+	   "scripts": {
+	         "start": "node server.js"
 	    },
-	   gmainh: gserver.jsh,
-	   grepositoryh: {
-	        gtypeh: ggith,
-	        gurlh: gh
+	   "main": "server.js",
+	   "repository": {
+	        "type": "git",
+	        "url": ""
 	    },
-	   gauthorh: gmyApph,
-	   glicenseh: gmyApph,
-	   gbugsh: {
-	        gurlh: gh
+	   "author": "myApp",
+	   "license": "myApp",
+	   "bugs": {
+	        "url": ""
 	    },
-	   ghomepageh: g/h
+	   "homepage": "/"
 	}
