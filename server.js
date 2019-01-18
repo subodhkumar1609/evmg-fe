@@ -11,7 +11,7 @@ app.all("/be/*", function(req, res) {
     apiProxy.web(req, res, {target: hostServer});
 });
 
-app.get("/", function (req, res,next) {
+app.get("/fo", function (req, res,next) {
 	 res.redirect("/"); 
 });
 
