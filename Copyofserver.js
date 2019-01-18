@@ -2,7 +2,7 @@ var express  = require('express');
 var app      = express();
 var httpProxy = require('http-proxy');
 var apiProxy = httpProxy.createProxyServer();
-var hostServer = 'https://sbd-eventmg.herokuapp.com';
+var hostServer = 'http://localhost:8080/eventms';
  
 //app.use(express.static("foapp"));
 
