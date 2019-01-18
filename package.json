@@ -1,24 +1,26 @@
 {
-	   "name": "events-fe",
-	   "version": "1",
-	   "description": "Event FE",
-	   "dependencies": {
-	        "express": "*",
-	        "express-http-proxy": "*"
-	    },
-	   "engine": "node >=0.6.x",
-	   "scripts": {
-	         "start": "node server.js"
-	    },
-	   "main": "server.js",
-	   "repository": {
-	        "type": "git",
-	        "url": ""
-	    },
-	   "author": "myApp",
-	   "license": "myApp",
-	   "bugs": {
-	        "url": ""
-	    },
-	   "homepage": "/"
-	}
+	"name": "events-fe",
+	"version": "1",
+	"description": "Event FE",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "*",
+		"express-http-proxy": "*",
+		"nodemailer": "^5.1.1"
+	},
+	"engine": "node >=0.6.x",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"main": "server.js",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"author": "myApp",
+	"license": "myApp",
+	"bugs": {
+		"url": ""
+	},
+	"homepage": "/"
+}
