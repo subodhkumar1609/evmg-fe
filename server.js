@@ -6,13 +6,13 @@ var hostServer = 'https://sbd-eventmg.herokuapp.com';
  
 app.use(express.static("foapp"));
 
-app.get("/", function (req, res,next) {
-	 res.redirect("/"); 
-});
-
 app.all("/be/*", function(req, res) {
     console.log('redirecting to host server');
     apiProxy.web(req, res, {target: hostServer});
+});
+
+app.get("/", function (req, res,next) {
+	 res.redirect("/"); 
 });
 
 app.listen(process.env.PORT || 5000)
