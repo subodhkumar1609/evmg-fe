@@ -3,7 +3,8 @@
 	   "version": "1",
 	   "description": "Event FE",
 	   "dependencies": {
-	        "express": "*"
+	        "express": "*",
+	        "express-http-proxy": "*"
 	    },
 	   "engine": "node >=0.6.x",
 	   "scripts": {
