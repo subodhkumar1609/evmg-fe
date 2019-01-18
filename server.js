@@ -15,4 +15,4 @@ app.all("/be/*", function(req, res) {
     apiProxy.web(req, res, {target: hostServer});
 });
 
-app.listen(1609);
+app.listen(process.env.PORT || 5000)
