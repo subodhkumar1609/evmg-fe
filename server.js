@@ -28,11 +28,11 @@ app.all("/be/*", function(req, res) {
     var options = {
     		  hostname: 'sbd-eventmg.herokuapp.com',
     		  port: 443,
-    		  path: 'req.url',
+    		  path: req.url,
     		  method: req.method,
     		  headers: {
     			    'Content-Type': 'application/json'
-    			  }
+    			 	   }
     }
     
 
