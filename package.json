@@ -1,0 +1,23 @@
+{
+	   gnameh: gevents-feh,
+	   gversionh: g1h,
+	   gdescriptionh: gEvent FEh,
+	   gdependenciesh: {
+	        gexpressh: g*h
+	    },
+	   gengineh: gnode >=0.6.xh,
+	   gscriptsh: {
+	         gstarth: gnode server.jsh
+	    },
+	   gmainh: gserver.jsh,
+	   grepositoryh: {
+	        gtypeh: ggith,
+	        gurlh: gh
+	    },
+	   gauthorh: gmyApph,
+	   glicenseh: gmyApph,
+	   gbugsh: {
+	        gurlh: gh
+	    },
+	   ghomepageh: g/h
+	}
