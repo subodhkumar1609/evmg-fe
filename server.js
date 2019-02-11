@@ -24,9 +24,11 @@ app.post("/emailer", function(req, res) {
 		var emailObject = req.body;
 		console.log('Email request is recieved : ' + emailObject.name + ' : ' + emailObject.email);	
 		utils.sendEmailToHost(emailObject);
-		res.sendStatus(200);
+		var status = {statusCode : 200, statusMessage : 'Email Send Success'};
+		res.send(status);
 	} catch (err) {
-		res.sendStatus(500);
+		var status = {statusCode : 500, statusMessage : 'Email Send Failure'};
+		res.send(status);
 	}
 })
 
